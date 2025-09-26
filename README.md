@@ -2,6 +2,7 @@
 A lightweight, standalone PDF viewer and annotation tool for Windows and Linux, inspired by the dual-pane layout of modern code editors like VS Code. This application was built to provide a simple, efficient workflow for users who need to browse a folder of PDFs and make quick annotations without the overhead of heavy, commercial software.
 
 This entire application was created and iteratively developed by Google Gemini.
+The icon is downloaded from https://icon-icons.com/icon/pdf-page-folded/30485
 
 ## Features
 This application combines a file browser and a PDF annotation tool into a single, seamless interface with a rich set of features:

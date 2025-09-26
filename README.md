@@ -3,8 +3,6 @@ A lightweight, standalone PDF viewer and annotation tool for Windows and Linux, 
 
 This entire application was created and iteratively developed by Google Gemini.
 
-Note: You can replace the link above with a real screenshot of the application.
-
 ## Features
 This application combines a file browser and a PDF annotation tool into a single, seamless interface with a rich set of features:
 

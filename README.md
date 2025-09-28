@@ -47,9 +47,9 @@ This application combines a file browser and a PDF annotation tool into a single
 ## Prerequisites
 Before running the script, you need to have Python and a few libraries installed.
 
-Python 3.x
+- Python 3.x
 
-pip (Python's package installer, usually included with Python)
+- pip (Python's package installer, usually included with Python)
 
 - Tkinter: On some Linux distributions, you may need to install the Tkinter library separately.
 
@@ -58,34 +58,34 @@ pip (Python's package installer, usually included with Python)
 - On Fedora: sudo dnf install python3-tkinter
 
 ## Installation & Setup
-Clone the repository:
+#### Clone the repository:
 
-git clone [https://github.com/sc361994/pdf_viewer.git](https://github.com/sc361994/pdf_viewer.git)
-cd pdf_viewer
+- git clone [https://github.com/sc361994/pdf_viewer.git](https://github.com/sc361994/pdf_viewer.git)
+- cd pdf_viewer
 
-Install the required libraries:
-Open a command prompt or terminal and run the following command:
+#### Install the required libraries:
+-Open a command prompt or terminal and run the following command:
 
-pip install PyMuPDF Pillow
+-pip install PyMuPDF Pillow
 
-How to Run
+#### How to Run
 To run the application directly from the Python script, execute the following command in your terminal from the project's root directory:
 
-python pdf_viewer_app.py
+- python pdf_viewer_app.py
 
-Building the Executable
+#### Building the Executable
 You can package the application into a single executable file for easy distribution.
 
-For Windows
+- For Windows
 Run the following command from the project's root directory. Make sure you have an icon file (e.g., icon.ico) in the same folder if you wish to use the --icon option.
 
 python -m PyInstaller --onefile --windowed --name="Zen PDF Viewer" --icon="your_icon.ico" pdf_viewer_app.py
 
---onefile: Bundles everything into a single executable.
+-- onefile: Bundles everything into a single executable.
 
---windowed: Prevents the command prompt from appearing behind the app.
+-- windowed: Prevents the command prompt from appearing behind the app.
 
---name: Sets the name of your final .exe file.
+-- name: Sets the name of your final .exe file.
 
 --icon: (Optional) Sets the application's icon.
 
